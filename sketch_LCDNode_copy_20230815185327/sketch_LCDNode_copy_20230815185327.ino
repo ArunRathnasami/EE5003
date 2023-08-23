@@ -1,8 +1,8 @@
 #include <ArduinoJson.h>
 #include <ESP8266WiFi.h>
 
-const char* ssid = "your_SSID";
-const char* password = "your_PASSWORD";
+const char* ssid = "Batmobile";
+const char* password = "qwerty123";
 
 void setup() {
   Serial.begin(9600);
