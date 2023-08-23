@@ -54,7 +54,6 @@ void loop() {
   delay(1000);
 }
 
-
 float readACS712() {
   int raw = analogRead(ACS_PIN);
   float voltage = (raw / 1023.0) * 5.0; 
@@ -76,5 +75,6 @@ float readUltrasonicDistance() {
   float distance = duration * 0.034 / 2;
   return distance;
 }
+
 
 
