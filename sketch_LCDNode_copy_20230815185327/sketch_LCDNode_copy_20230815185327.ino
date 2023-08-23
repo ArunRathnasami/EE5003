@@ -27,7 +27,7 @@ void loop() {
       float current = doc["current"];
       float distance = doc["distance"];
 
-      // Use the data (e.g., send it to a cloud service, MQTT, etc.)
+  
 
       Serial.print("Received Humidity: ");
       Serial.println(humidity);
