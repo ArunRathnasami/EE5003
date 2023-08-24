@@ -24,7 +24,7 @@ void setup() {
   lcd.begin(16, 2);
   delay(2000);
 
-  ArduinoCloud.setThingId("your_thing_id");
+  ArduinoCloud.setThingId("b5666412-b34b-4504-b724-07381a397daa");
   ArduinoCloud.addProperty(temperature, READ, "Temperature", "C");
   ArduinoCloud.addProperty(humidity, READ, "Humidity", "%");
   ArduinoCloud.addProperty(current, READ, "Current", "A");
